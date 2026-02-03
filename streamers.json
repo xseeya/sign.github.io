@@ -1,56 +1,453 @@
 [
   {
-    "nickname": "s1mple",
-    "description": "Ukrainian professional CS2 player, considered one of the best players in the world. Known for his incredible aim and clutch plays.",
-    "signature": "I just play my game.",
+    "nickname": "fertilcs",
+    "description": "CS2‑стример с упором на спокойный разбор игровых ситуаций и стабильный аим.",
     "links": {
-      "hltv": "https://www.hltv.org/player/7998/s1mple",
-      "twitch": "https://www.twitch.tv/s1mple"
+      "twitch": "https://www.twitch.tv/fertilcs"
     }
   },
   {
-    "nickname": "ZywOo",
-    "description": "French prodigy and one of the most talented CS2 players. Dominates the server with his exceptional utility usage and fragging ability.",
-    "signature": "Just aim and spray.",
+    "nickname": "fearfox111",
+    "description": "Эмоциональный и энергичный стример, который делает каждую катку шоу.",
     "links": {
-      "hltv": "https://www.hltv.org/player/14904/ZywOo",
-      "twitch": "https://www.twitch.tv/zywoo"
+      "twitch": "https://www.twitch.tv/fearfox111",
+      "hltv": "https://www.hltv.org/player/17313/fearfox"
     }
   },
   {
-    "nickname": "m0NESY",
-    "description": "Young Russian sniper sensation taking the CS2 scene by storm. Known for incredible aim and clutch moments.",
-    "signature": "I don't aim, I just click heads.",
+    "nickname": "icyt3ars",
+    "description": "Игрок с аккуратным стилем и любовью к аналитике в CS2.",
     "links": {
-      "hltv": "https://www.hltv.org/player/19230/m0NESY",
-      "twitch": "https://www.twitch.tv/m0nesy"
+      "twitch": "https://www.twitch.tv/icyt3ars"
     }
   },
   {
-    "nickname": "donk",
-    "description": "Rising star from Team Spirit, making waves with his aggressive playstyle and exceptional rifle skills.",
-    "signature": "I came, I saw, I conquered.",
+    "nickname": "s_chilla",
+    "description": "Стример, который сочетает спокойный вайб с уверенной игрой и приятной атмосферой.",
     "links": {
-      "hltv": "https://www.hltv.org/player/21119/donk",
-      "twitch": "https://www.twitch.tv/donk"
+      "twitch": "https://www.twitch.tv/s_chilla",
+      "hltv": "https://www.hltv.org/player/23413/s-chilla",
+      "liquipedia": "https://liquipedia.net/counterstrike/S-chilla"
     }
   },
   {
-    "nickname": "Jame",
-    "description": "Russian AWPer known for his patience and clutch ability. Leader of Team Spirit's CS2 roster.",
-    "signature": "Patience is key.",
+    "nickname": "akiyanoracs",
+    "description": "Контент‑мейкер с ярким стилем и агрессивной подачей в матчах CS2.",
     "links": {
-      "hltv": "https://www.hltv.org/player/13622/Jame",
-      "twitch": "https://www.twitch.tv/jame"
+      "twitch": "https://www.twitch.tv/akiyanoracs",
+      "hltv": "https://www.hltv.org/player/23440/akiyanora",
+      "liquipedia": "https://liquipedia.net/counterstrike/Akiyanora"
     }
   },
   {
-    "nickname": "NiKo",
-    "description": "Bosnian veteran and one of the most consistent players in CS2 history. Known for his versatility and leadership.",
-    "signature": "I'm just trying to make plays.",
+    "nickname": "pwnalonecs",
+    "description": "Опытный игрок, известный своим уверенным аимом и стабильной игрой.",
     "links": {
-      "hltv": "https://www.hltv.org/player/3741/NiKo",
-      "twitch": "https://www.twitch.tv/niko"
+      "twitch": "https://www.twitch.tv/pwnalonecs",
+      "hltv": "https://www.hltv.org/player/15090/pwnalone",
+      "liquipedia": "https://liquipedia.net/counterstrike/PwnAlone"
+    }
+  },
+  {
+    "nickname": "airscape",
+    "description": "Стример с лёгкой подачей и умением превращать каждую игру в развлекательный контент.",
+    "links": {
+      "twitch": "https://www.twitch.tv/airscape",
+      "hltv": "https://www.hltv.org/player/17012/airscape",
+      "liquipedia": "https://liquipedia.net/counterstrike/Airscape"
+    }
+  },
+  {
+    "nickname": "keliencs",
+    "description": "Игрок с сильной механикой и спокойным, уверенным стилем игры.",
+    "links": {
+      "twitch": "https://www.twitch.tv/keliencs",
+      "hltv": "https://www.hltv.org/player/23048/kelien",
+      "liquipedia": "https://liquipedia.net/counterstrike/KelieN"
+    }
+  },
+  {
+    "nickname": "watchfultv",
+    "description": "Стример, который делает акцент на обучении и разборе игровых моментов.",
+    "links": {
+      "twitch": "https://www.twitch.tv/watchfultv"
+    }
+  },
+  {
+    "nickname": "donacs",
+    "description": "Контент‑мейкер с агрессивным стилем и яркой подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/donacs",
+      "hltv": "https://www.hltv.org/player/24768/dona",
+      "liquipedia": "https://liquipedia.net/counterstrike/Dona"
+    }
+  },
+  {
+    "nickname": "mauisnake",
+    "description": "Комментатор и аналитик CS2, совмещающий стримы с глубоким пониманием игры.",
+    "links": {
+      "twitch": "https://www.twitch.tv/mauisnake",
+      "hltv": "https://www.hltv.org/player/14497/mauisnake",
+      "liquipedia": "https://liquipedia.net/counterstrike/Mauisnake"
+    }
+  },
+  {
+    "nickname": "heatoncs",
+    "description": "Легендарная фигура CS‑сцены, стримящая с харизмой и опытом.",
+    "links": {
+      "twitch": "https://www.twitch.tv/mauisnake",
+      "hltv": "https://www.hltv.org/player/14497/mauisnake",
+      "liquipedia": "https://liquipedia.net/counterstrike/Mauisnake"
+    }
+  },
+  {
+    "nickname": "linaONE",
+    "description": "Стример с позитивной атмосферой и стабильной игрой в матчмейкинге.",
+    "links": {
+      "twitch": "https://www.twitch.tv/linaone",
+      "hltv": "https://www.hltv.org/player/14497/linaone",
+      "liquipedia": "https://liquipedia.net/counterstrike/LINAONE"
+    }
+  },
+  {
+    "nickname": "del1ght",
+    "description": "Игрок с быстрым стилем и яркими моментами на стримах.",
+    "links": {
+      "twitch": "https://www.twitch.tv/del1ght",
+      "hltv": "https://www.hltv.org/player/22351/delight",
+      "liquipedia": "https://liquipedia.net/counterstrike/Delight"
+    }
+  },
+  {
+    "nickname": "stewie2k",
+    "description": "Известный профессиональный игрок, совмещающий стримы с харизматичной подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/stewie2k",
+      "hltv": "https://www.hltv.org/player/8797/stewie2k",
+      "liquipedia": "https://liquipedia.net/counterstrike/Stewie2K"
+    }
+  },
+  {
+    "nickname": "FpSSS",
+    "description": "Стример с упором на механический скилл и динамичную игру.",
+    "links": {
+      "twitch": "https://www.twitch.tv/fpssssssssssssssssssss",
+      "hltv": "https://www.hltv.org/player/20201/fpsss",
+      "liquipedia": "https://liquipedia.net/counterstrike/FpSSS"
+
+    }
+  },
+  {
+    "nickname": "m3wsu",
+    "description": "Игрок с аккуратным стилем и приятной атмосферой на стримах.",
+    "links": {
+      "twitch": "https://www.twitch.tv/m3wsu",
+      "hltv": "https://www.hltv.org/player/23682/m3wsu",
+      "liquipedia": "https://liquipedia.net/counterstrike/M3wsu"
+    }
+  },
+  {
+    "nickname": "1nnochka",
+    "description": "Стримерша с дружелюбной атмосферой и стабильной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/1nnochka",
+      "hltv": "",
+      "liquipedia": "https://liquipedia.net/counterstrike/1nnochka"
+    }
+  },
+  {
+    "nickname": "tizian_cs",
+    "description": "Профессиональный игрок, делящийся опытом и спокойным стилем игры.",
+    "links": {
+      "twitch": "https://www.twitch.tv/tizian_cs",
+      "hltv": "https://www.hltv.org/player/5796/tizian",
+      "liquipedia": "https://liquipedia.net/counterstrike/TiziaN"
+    }
+  },
+  {
+    "nickname": "6u3hecbyman",
+    "description": "Стример с уникальной подачей и нестандартным стилем игры.",
+    "links": {
+      "twitch": "https://www.twitch.tv/6u3hecbyman",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "compl1cs",
+    "description": "Игрок с уверенным аимом и спокойной атмосферой на стримах.",
+    "links": {
+      "twitch": "https://www.twitch.tv/compl1cs",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "fandercs",
+    "description": "Стример с агрессивным стилем и яркими моментами.",
+    "links": {
+      "twitch": "https://www.twitch.tv/fandercs",
+      "hltv": "https://www.hltv.org/player/17104/fander",
+      "liquipedia": "https://liquipedia.net/counterstrike/FANDER"
+    }
+  },
+  {
+    "nickname": "heysedaya",
+    "description": "Контент‑мейкер с лёгкой атмосферой и позитивной подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/heysedaya",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "hhhakkku",
+    "description": "Стример с нестандартным стилем и яркими эмоциями.",
+    "links": {
+      "twitch": "https://www.twitch.tv/hhhakkku",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "kurofamegod",
+    "description": "Игрок с агрессивной подачей и уверенной механикой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/kurofamegod",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "rallencs2",
+    "description": "Стример с сильной стрельбой и стабильной игрой в CS2.",
+    "links": {
+      "twitch": "https://www.twitch.tv/rallencs2",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "aesthhh",
+    "description": "Стример с эстетичным стилем и аккуратной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/aesthhh",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "d0cc_tv",
+    "description": "Известный игрок с уникальным стилем и мощной механикой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/d0cc_tv",
+      "hltv": "https://www.hltv.org/player/18361/d0cc",
+      "liquipedia": "https://liquipedia.net/counterstrike/D0cC"
+    }
+  },
+  {
+    "nickname": "yumsancs",
+    "description": "Стример с позитивной атмосферой и уверенной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/yumsancs",
+      "hltv": "https://www.hltv.org/player/20504/yumsan",
+      "liquipedia": "https://liquipedia.net/counterstrike/YumsaN"
+    }
+  },
+  {
+    "nickname": "1nterz",
+    "description": "Профессиональный игрок, известный своим спокойным и дисциплинированным стилем.",
+    "links": {
+      "twitch": "https://www.twitch.tv/1nterz",
+      "hltv": "https://www.hltv.org/player/15071/interz",
+      "liquipedia": "https://liquipedia.net/counterstrike/Interz"
+    }
+  },
+  {
+    "nickname": "irbitka",
+    "description": "Стример с ламповой атмосферой и стабильной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/irbitka",
+      "hltv": "https://www.hltv.org/player/23505/irbitka",
+      "liquipedia": "https://liquipedia.net/counterstrike/IRBITka"
+    }
+  },
+  {
+    "nickname": "trevl",
+    "description": "Игрок с уверенной механикой и спокойной подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/trevl",
+      "hltv": "https://www.hltv.org/player/13778/tr3vl",
+      "liquipedia": "https://liquipedia.net/counterstrike/Tr3vl"
+    }
+  },
+  {
+    "nickname": "bandurka",
+    "description": "Стример с харизмой и яркими моментами в CS2.",
+    "links": {
+      "twitch": "https://www.twitch.tv/bandurka",
+      "hltv": "https://www.hltv.org/player/8125/dimaoneshot",
+      "liquipedia": "https://liquipedia.net/counterstrike/Dimaoneshot"
+    }
+  },
+  {
+    "nickname": "juntella",
+    "description": "Стримерша с дружелюбной атмосферой и уверенной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/juntella",
+      "hltv": "https://www.hltv.org/player/24469/juntella",
+      "liquipedia": "https://liquipedia.net/counterstrike/Juntella"
+    }
+  },
+  {
+    "nickname": "poka",
+    "description": "Игрок с агрессивным стилем и яркой подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/poka",
+      "hltv": "https://www.hltv.org/player/16611/poka",
+      "liquipedia": "https://liquipedia.net/counterstrike/Poka"
+    }
+  },
+  {
+    "nickname": "topocsgo",
+    "description": "Стример, делающий акцент на обучении и разборе игровых ситуаций.",
+    "links": {
+      "twitch": "https://www.twitch.tv/topocsgo",
+      "hltv": "https://www.hltv.org/player/24326/topo",
+      "liquipedia": "https://liquipedia.net/counterstrike/Topo-"
+    }
+  },
+  {
+    "nickname": "milqka",
+    "description": "Стримерша с мягкой атмосферой и стабильной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/milqka",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "qrushcsgo",
+    "description": "Игрок с быстрым стилем и агрессивной подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/qrushcsgo",
+      "hltv": "https://www.hltv.org/player/12943/qrush",
+      "liquipedia": "liquipedia.net/counterstrike/QRUSH"
+    }
+  },
+  {
+    "nickname": "mamaswiggi",
+    "description": "Стримерша с яркой подачей и позитивной атмосферой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/mamaswiggi",
+      "hltv": "",
+      "liquipedia": "https://liquipedia.net/counterstrike/MamaSwiggi"
+    }
+  },
+  {
+    "nickname": "1mpala",
+    "description": "Игрок с уверенной механикой и стабильной подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/1mpala",
+      "hltv": "https://www.hltv.org/player/12754/1mpala",
+      "liquipedia": "https://liquipedia.net/counterstrike/1mpala"
+    }
+  },
+  {
+    "nickname": "nordvi",
+    "description": "Стример с холодным стилем и уверенной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/nordvi",
+      "hltv": "",
+      "liquipedia": "https://liquipedia.net/counterstrike/Nordvi"
+    }
+  },
+  {
+    "nickname": "n0rb3r7",
+    "description": "Профессиональный игрок, известный своей стабильностью и дисциплиной.",
+    "links": {
+      "twitch": "https://www.twitch.tv/n0rb3r7",
+      "hltv": "https://www.hltv.org/player/16612/n0rb3r7",
+      "liquipedia": "https://liquipedia.net/counterstrike/N0rb3r7"
+    }
+  },
+  {
+    "nickname": "maia9a",
+    "description": "Стримерша с мягкой атмосферой и спокойной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/maia9a",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "v1spel",
+    "description": "Игрок с уверенной стрельбой и спокойной подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/v1spel",
+      "hltv": "https://www.hltv.org/player/23438/v1spel",
+      "liquipedia": "https://liquipedia.net/counterstrike/V1spel"
+    }
+  },
+  {
+    "nickname": "pusha13",
+    "description": "Стример с агрессивным стилем и яркими моментами.",
+    "links": {
+      "twitch": "https://www.twitch.tv/pusha13",
+      "hltv": "https://www.hltv.org/player/25020/pusha",
+      "liquipedia": "https://liquipedia.net/counterstrike/Pusha"
+    }
+  },
+  {
+    "nickname": "friend44444",
+    "description": "Стример с дружелюбной атмосферой и стабильной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/friend44444",
+      "hltv": "",
+      "liquipedia": "https://liquipedia.net/counterstrike/Friend444"
+    }
+  },
+  {
+    "nickname": "m4gaaaa",
+    "description": "Игрок с нестандартным стилем и яркой подачей.",
+    "links": {
+      "twitch": "https://www.twitch.tv/m4gaaaa",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "akkri_",
+    "description": "Стример с уверенной механикой и спокойным стилем игры.",
+    "links": {
+      "twitch": "https://www.twitch.tv/akkri_",
+      "hltv": "https://www.hltv.org/player/23305/akkri",
+      "liquipedia": "https://liquipedia.net/counterstrike/Akkri"
+    }
+  },
+  {
+    "nickname": "ikasperovskaya",
+    "description": "Стримерша с яркой подачей и позитивной атмосферой.",
+    "links": {
+      "twitch": "https://twitch.tv/ikasperovskaya",
+      "hltv": "",
+      "liquipedia": "https://liquipedia.net/counterstrike/Kasperovskaya"
+    }
+  },
+  {
+    "nickname": "yxngstxr",
+    "description": "Игрок с дерзким стилем и динамичной игрой.",
+    "links": {
+      "twitch": "https://twitch.tv/yxngstxr",
+      "hltv": "https://www.hltv.org/player/22047/yxngstxr",
+      "liquipedia": "https://liquipedia.net/counterstrike/Yxngstxr"
+    }
+  },
+  {
+    "nickname": "kiryuhanastyuha",
+    "description": "Игрок с дерзким стилем и динамичной игрой.",
+    "links": {
+      "twitch": "https://www.twitch.tv/kiryuhanastyuha"
     }
   }
 ]
