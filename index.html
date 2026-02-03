@@ -44,7 +44,7 @@
                 </svg>
             </a>
         </div>
-        <a href="tournaments.html" class="tournaments-button" onclick="exitToMain(event)">
+        <a href="tournaments" class="tournaments-button" onclick="exitToMain(event)">
             My achievements
         </a>
     </header>
@@ -70,6 +70,14 @@
     
     <script src="app.js"></script>
     <script>
+        // Handle clean URLs - redirect to .html if needed
+        if (window.location.pathname.endsWith('/index') || window.location.pathname === '/') {
+            // Already on index, no redirect needed
+        } else if (window.location.pathname === '/tournaments' || window.location.pathname.endsWith('/tournaments/')) {
+            // Redirect tournaments to tournaments.html
+            window.location.replace('tournaments.html' + window.location.hash);
+        }
+        
         // Function to animate page exit before redirecting to tournaments page
         function exitToMain(event) {
             event.preventDefault();
@@ -78,7 +86,7 @@
             
             // Wait for animation to complete, then redirect
             setTimeout(function() {
-                window.location.href = event.target.closest('a').href;
+                window.location.href = 'tournaments';
             }, 400);
         }
     </script>

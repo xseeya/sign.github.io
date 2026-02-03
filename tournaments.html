@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="back-link">
-            <a href="index.html" class="back-btn" onclick="exitToMain(event)">← Back to Main</a>
+            <a href="index" class="back-btn" onclick="exitToMain(event)">← Back to Main</a>
         </div>
     </header>
     
@@ -42,6 +42,11 @@
     
     <script src="app.js"></script>
     <script>
+        // Handle clean URLs - redirect to .html if needed
+        if (window.location.pathname === '/tournaments' || window.location.pathname.endsWith('/tournaments/')) {
+            window.location.replace('tournaments.html' + window.location.hash);
+        }
+        
         document.addEventListener('DOMContentLoaded', function() {
             const container = document.getElementById('tournaments-container');
             const counterElement = document.getElementById('tournament-counter');
@@ -206,7 +211,7 @@
             
             // Wait for animation to complete, then redirect
             setTimeout(function() {
-                window.location.href = 'index.html';
+                window.location.href = 'index';
             }, 400);
         }
     </script>
