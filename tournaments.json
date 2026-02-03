@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Vladimir Regional Stage of VKSL",
+    "date": "2025-03-15",
+    "placement": "9-16 place",
+    "team": "ЭМК",
+    "game": "CS2",
+    "teammates": ["Eshkereyo", "kiossee", "mamin", "Lolikip_"],
+    "links": {
+      "info": "https://www.vscl.ru/tournaments/1342/information",
+      "bracket": "https://www.vscl.ru/tournaments/1342/stages/1"
+    }
+  },
+  {
+    "name": "KGTA Student Spring 2025 ",
+    "date": "2025-04-02",
+    "placement": "3 place",
+    "team": "ЭМК",
+    "game": "CS2",
+    "teammates": ["Eshkereyo", "kiossee", "mamin", "Lolikip_"],
+    "links": {
+      "info": "https://www.vscl.ru/tournaments/1384/information",
+      "bracket": "https://www.vscl.ru/tournaments/1384/stages/1"
+    }
+  },
+  {
+    "name": "UP-X 5v5 Cup",
+    "date": "2026-02-01",
+    "placement": "-",
+    "team": "0guzki",
+    "game": "CS2",
+    "teammates": ["Ins-Xne", "Lolikip_", "DIKLOR", "ezh sonik"],
+    "links": {
+      "info": "https://cs2.fastcup.net/tournaments/14163",
+      "bracket": "https://cs2.fastcup.net/tournaments/14165/stages/14326"
+    }
+  }
+]

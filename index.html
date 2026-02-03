@@ -44,6 +44,9 @@
                 </svg>
             </a>
         </div>
+        <a href="tournaments.html" class="tournaments-button" onclick="exitToMain(event)">
+            My achievements
+        </a>
     </header>
     
     <main class="main">
@@ -66,5 +69,18 @@
     </main>
     
     <script src="app.js"></script>
+    <script>
+        // Function to animate page exit before redirecting to tournaments page
+        function exitToMain(event) {
+            event.preventDefault();
+            const body = document.body;
+            body.classList.add('page-exiting');
+            
+            // Wait for animation to complete, then redirect
+            setTimeout(function() {
+                window.location.href = event.target.closest('a').href;
+            }, 400);
+        }
+    </script>
 </body>
 </html>
