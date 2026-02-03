@@ -9,6 +9,8 @@
         // GitHub Pages URL rewrite handler
         (function() {
             var path = window.location.pathname;
+            var hash = window.location.hash;
+            var search = window.location.search;
             
             // Remove trailing slash
             if (path.endsWith('/')) {
@@ -17,21 +19,26 @@
             
             // Get the last segment of the path
             var segments = path.split('/').filter(function(s) { return s; });
-            var lastSegment = segments[segments.length - 1] || 'index';
+            var lastSegment = segments[segments.length - 1] || 'root';
+            
+            // Handle index redirect - send to root "/" with clean URL
+            if (lastSegment === 'index' || lastSegment === 'index.html') {
+                window.location.replace('/' + hash + search);
+                return;
+            }
             
             // Map of clean URLs to actual HTML files
             var urlMapping = {
-                'index': 'index.html',
                 'tournaments': 'tournaments.html'
             };
             
             // Check if this is a known page
             if (urlMapping[lastSegment]) {
                 // Redirect to the actual .html file
-                window.location.replace(urlMapping[lastSegment] + window.location.hash + window.location.search);
+                window.location.replace(urlMapping[lastSegment] + hash + search);
             } else {
-                // Unknown page, redirect to index
-                window.location.replace('index.html');
+                // Unknown page, redirect to root
+                window.location.replace('/' + hash + search);
             }
         })();
     </script>
