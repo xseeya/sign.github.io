@@ -35,8 +35,13 @@ document.addEventListener('DOMContentLoaded', function() {
         card.className = 'streamer-card';
         
         card.innerHTML = `
-            <h2>${escapeHtml(streamer.nickname)}</h2>
-            <p class="description">${escapeHtml(streamer.description)}</p>
+            <h2>
+                ${escapeHtml(streamer.nickname)}
+                <span class="info-icon">
+                    i
+                    <span class="description-tooltip">${escapeHtml(streamer.description)}</span>
+                </span>
+            </h2>
             <div class="signature">
                 "${escapeHtml(streamer.signature)}"
             </div>
