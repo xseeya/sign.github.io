@@ -12,18 +12,27 @@
             var hash = window.location.hash;
             var search = window.location.search;
             
-            // Remove trailing slash
+            // Get the base path (repository name) from the current location
+            // This handles cases where the site is in a subfolder like /sign
+            var basePath = path.substring(0, path.lastIndexOf('/')) || '/';
+            
+            // Remove trailing slash from base path
+            if (basePath.endsWith('/') && basePath.length > 1) {
+                basePath = basePath.slice(0, -1);
+            }
+            
+            // Remove trailing slash from path
             if (path.endsWith('/')) {
                 path = path.slice(0, -1);
             }
             
             // Get the last segment of the path
             var segments = path.split('/').filter(function(s) { return s; });
-            var lastSegment = segments[segments.length - 1] || 'root';
+            var lastSegment = segments[segments.length - 1] || '';
             
-            // Handle index redirect - send to root "/" with clean URL
+            // Handle index redirect - send to base path (root of site)
             if (lastSegment === 'index' || lastSegment === 'index.html') {
-                window.location.replace('/' + hash + search);
+                window.location.replace(basePath + '/' + hash + search);
                 return;
             }
             
@@ -35,10 +44,10 @@
             // Check if this is a known page
             if (urlMapping[lastSegment]) {
                 // Redirect to the actual .html file
-                window.location.replace(urlMapping[lastSegment] + hash + search);
+                window.location.replace(basePath + '/' + urlMapping[lastSegment] + hash + search);
             } else {
-                // Unknown page, redirect to root
-                window.location.replace('/' + hash + search);
+                // Unknown page, redirect to base path
+                window.location.replace(basePath + '/' + hash + search);
             }
         })();
     </script>

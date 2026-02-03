@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="back-link">
-            <a href="/" class="back-btn" onclick="exitToMain(event)">← Back to Main</a>
+            <a href="./" class="back-btn" onclick="exitToMain(event)">← Back to Main</a>
         </div>
     </header>
     
@@ -205,7 +205,13 @@
             
             // Wait for animation to complete, then redirect
             setTimeout(function() {
-                window.location.href = '/';
+                // Get the base path (repository name)
+                var path = window.location.pathname;
+                var basePath = path.substring(0, path.lastIndexOf('/')) || '/';
+                if (basePath.endsWith('/') && basePath.length > 1) {
+                    basePath = basePath.slice(0, -1);
+                }
+                window.location.href = basePath + '/';
             }, 400);
         }
     </script>
