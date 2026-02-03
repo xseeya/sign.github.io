@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // GitHub Pages URL rewrite handler
+        (function() {
+            var path = window.location.pathname;
+            
+            // Remove trailing slash
+            if (path.endsWith('/')) {
+                path = path.slice(0, -1);
+            }
+            
+            // Get the last segment of the path
+            var segments = path.split('/').filter(function(s) { return s; });
+            var lastSegment = segments[segments.length - 1] || 'index';
+            
+            // Map of clean URLs to actual HTML files
+            var urlMapping = {
+                'index': 'index.html',
+                'tournaments': 'tournaments.html'
+            };
+            
+            // Check if this is a known page
+            if (urlMapping[lastSegment]) {
+                // Redirect to the actual .html file
+                window.location.replace(urlMapping[lastSegment] + window.location.hash + window.location.search);
+            } else {
+                // Unknown page, redirect to index
+                window.location.replace('index.html');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: system-ui, sans-serif;">
+        <p>Redirecting...</p>
+    </div>
+</body>
+</html>
