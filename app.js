@@ -2,7 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('streamers-container');
     const counterElement = document.getElementById('counter');
     const showStreamersBtn = document.getElementById('show-streamers-btn');
+    const filterContainer = document.getElementById('filter-container');
+    const filterAllBtn = document.getElementById('filter-all');
+    const filterProBtn = document.getElementById('filter-pro');
+    const filterStreamersBtn = document.getElementById('filter-streamers');
     let streamersData = [];
+    let currentFilter = 'all';
     
     // Fetch JSON data
     fetch('streamers.json')
@@ -23,27 +28,61 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Show streamers button click handler
     showStreamersBtn.addEventListener('click', function(e) {
-        createRipple(e, showStreamersBtn);
+        console.log('[DEBUG] show-streamers-btn clicked, hiding button and showing cards');
+        // Hide the button when cards are displayed
+        showStreamersBtn.style.display = 'none';
         container.classList.remove('hidden');
-        showStreamersBtn.classList.add('hidden');
-        renderStreamers(streamersData);
+        filterContainer.classList.remove('hidden');
+        renderStreamers(getFilteredStreamers());
+        
+        // Enable scrolling after button click
+        document.body.style.overflow = 'auto';
+        
+        // Scroll to show the content
+        window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
     });
     
-    // Ripple effect function
-    function createRipple(event, element) {
-        const ripple = document.createElement('span');
-        ripple.className = 'ripple';
-        const rect = element.getBoundingClientRect();
-        const size = Math.max(rect.width, rect.height);
-        const x = event.clientX - rect.left - size / 2;
-        const y = event.clientY - rect.top - size / 2;
-        ripple.style.width = ripple.style.height = size + 'px';
-        ripple.style.left = x + 'px';
-        ripple.style.top = y + 'px';
-        element.appendChild(ripple);
-        setTimeout(() => ripple.remove(), 600);
+    // Filter button handlers
+    filterAllBtn.addEventListener('click', function() {
+        setActiveFilter('all');
+        renderStreamers(getFilteredStreamers());
+    });
+    
+    filterProBtn.addEventListener('click', function() {
+        setActiveFilter('pro');
+        renderStreamers(getFilteredStreamers());
+    });
+    
+    filterStreamersBtn.addEventListener('click', function() {
+        setActiveFilter('streamers');
+        renderStreamers(getFilteredStreamers());
+    });
+    
+    function setActiveFilter(filter) {
+        currentFilter = filter;
+        filterAllBtn.classList.toggle('active', filter === 'all');
+        filterProBtn.classList.toggle('active', filter === 'pro');
+        filterStreamersBtn.classList.toggle('active', filter === 'streamers');
     }
     
+    function isProPlayer(streamer) {
+        const hltv = streamer.links && streamer.links.hltv && streamer.links.hltv.trim() !== '';
+        const liquipedia = streamer.links && streamer.links.liquipedia && streamer.links.liquipedia.trim() !== '';
+        return hltv || liquipedia;
+    }
+    
+    function getFilteredStreamers() {
+        switch (currentFilter) {
+            case 'pro':
+                return streamersData.filter(isProPlayer);
+            case 'streamers':
+                return streamersData.filter(s => !isProPlayer(s));
+            default:
+                return streamersData;
+        }
+    }
+    
+
     // Counter animation function
     function animateCounter(target) {
         const duration = 2000; // 2 seconds
@@ -74,6 +113,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function createStreamerCard(streamer) {
         const card = document.createElement('article');
         card.className = 'streamer-card';
+        
+
         
         // Generate liquipedia link
         let liquipediaHtml = '';
