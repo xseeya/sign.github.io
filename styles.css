@@ -450,6 +450,53 @@ body {
     }
 }
 
+/* Music Player Section */
+.music-section {
+    margin-top: 60px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.music-title {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: #58a6ff;
+    margin-bottom: 24px;
+    text-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+}
+
+.music-container {
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #161b22;
+    border: 1px solid #30363d;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.music-container iframe {
+    display: block;
+}
+
+/* Responsive adjustments for music player */
+@media (max-width: 768px) {
+    .music-container {
+        width: 100%;
+        border-radius: 12px;
+    }
+    
+    .music-container iframe {
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .music-container iframe {
+        height: 350px !important;
+    }
+}
+
 /* Enhanced streamer card styles */
 .streamer-card {
     background-color: #161b22;
