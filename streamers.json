@@ -1,0 +1,56 @@
+[
+  {
+    "nickname": "s1mple",
+    "description": "Ukrainian professional CS2 player, considered one of the best players in the world. Known for his incredible aim and clutch plays.",
+    "signature": "I just play my game.",
+    "links": {
+      "hltv": "https://www.hltv.org/player/7998/s1mple",
+      "twitch": "https://www.twitch.tv/s1mple"
+    }
+  },
+  {
+    "nickname": "ZywOo",
+    "description": "French prodigy and one of the most talented CS2 players. Dominates the server with his exceptional utility usage and fragging ability.",
+    "signature": "Just aim and spray.",
+    "links": {
+      "hltv": "https://www.hltv.org/player/14904/ZywOo",
+      "twitch": "https://www.twitch.tv/zywoo"
+    }
+  },
+  {
+    "nickname": "m0NESY",
+    "description": "Young Russian sniper sensation taking the CS2 scene by storm. Known for incredible aim and clutch moments.",
+    "signature": "I don't aim, I just click heads.",
+    "links": {
+      "hltv": "https://www.hltv.org/player/19230/m0NESY",
+      "twitch": "https://www.twitch.tv/m0nesy"
+    }
+  },
+  {
+    "nickname": "donk",
+    "description": "Rising star from Team Spirit, making waves with his aggressive playstyle and exceptional rifle skills.",
+    "signature": "I came, I saw, I conquered.",
+    "links": {
+      "hltv": "https://www.hltv.org/player/21119/donk",
+      "twitch": "https://www.twitch.tv/donk"
+    }
+  },
+  {
+    "nickname": "Jame",
+    "description": "Russian AWPer known for his patience and clutch ability. Leader of Team Spirit's CS2 roster.",
+    "signature": "Patience is key.",
+    "links": {
+      "hltv": "https://www.hltv.org/player/13622/Jame",
+      "twitch": "https://www.twitch.tv/jame"
+    }
+  },
+  {
+    "nickname": "NiKo",
+    "description": "Bosnian veteran and one of the most consistent players in CS2 history. Known for his versatility and leadership.",
+    "signature": "I'm just trying to make plays.",
+    "links": {
+      "hltv": "https://www.hltv.org/player/3741/NiKo",
+      "twitch": "https://www.twitch.tv/niko"
+    }
+  }
+]
