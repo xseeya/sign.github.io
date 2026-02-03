@@ -449,5 +449,146 @@
     "links": {
       "twitch": "https://www.twitch.tv/kiryuhanastyuha"
     }
+  },
+  {
+    "nickname": "arrowcs",
+    "links": {
+      "twitch": "https://www.twitch.tv/arrowcs"
+    }
+  },
+  {
+    "nickname": "suns1de",
+    "links": {
+      "twitch": "https://twitch.tv/suns1de999",
+      "hltv": "https://www.hltv.org/player/23052/suns1de",
+      "liquipedia": "https://liquipedia.net/counterstrike/Suns1de"
+    }
+  }
+  ,
+  {
+    "nickname": "matusik",
+    "links": {
+      "twitch": "",
+      "hltv": "https://www.hltv.org/player/18663/matusik",
+      "liquipedia": "https://liquipedia.net/counterstrike/Matusik"
+    }
+  },
+  {
+    "nickname": "xia",
+    "links": {
+      "twitch": "https://www.twitch.tv/xiacs2",
+      "hltv": "https://www.hltv.org/player/22604/xia",
+      "liquipedia": "https://liquipedia.net/counterstrike/Xia"
+    }
+  },
+  {
+    "nickname": "poisonika",
+    "links": {
+      "twitch": "https://www.twitch.tv/poisonika"
+    }
+  },
+  {
+    "nickname": "amanek",
+    "links": {
+      "twitch": "https://www.twitch.tv/amanek10",
+      "hltv": "https://liquipedia.net/counterstrike/AMANEK",
+      "liquipedia": "https://www.hltv.org/player/9616/amanek"
+    }
+  },
+  {
+    "nickname": "chopper",
+    "links": {
+      "twitch": "https://www.twitch.tv/chopperinho",
+      "hltv": "https://www.hltv.org/player/7716/chopper",
+      "liquipedia": "https://liquipedia.net/counterstrike/Chopper"
+    }
+  },
+  {
+    "nickname": "glowiing",
+    "links": {
+      "twitch": "https://www.twitch.tv/glowi1ng",
+      "hltv": "https://www.hltv.org/player/17508/glowiing",
+      "liquipedia": "https://liquipedia.net/counterstrike/Glowiing"
+    }
+  },
+  {
+    "nickname": "pattm0nster",
+    "links": {
+      "twitch": "https://twitch.tv/pattm0nster/",
+      "hltv": "",
+      "liquipedia": ""
+    }
+  },
+  {
+    "nickname": "Zana",
+    "links": {
+      "twitch": "https://www.twitch.tv/zanacs2",
+      "hltv": "https://www.twitch.tv/zanacs2",
+      "liquipedia": "https://liquipedia.net/counterstrike/Zana"
+    }
+  },
+  {
+    "nickname": "yariksupra",
+    "links": {
+      "twitch": "https://www.twitch.tv/yariksupra",
+      "hltv": "https://www.hltv.org/player/25275/yariksupra",
+      "liquipedia": "https://liquipedia.net/counterstrike/Yariksupra"
+    }
+  },
+  {
+    "nickname": "Krad",
+    "links": {
+      "twitch": "https://www.twitch.tv/kradcs",
+      "hltv": "https://www.hltv.org/player/12027/krad",
+      "liquipedia": "https://liquipedia.net/counterstrike/Krad"
+    }
+  },
+  {
+    "nickname": "zonixx",
+    "links": {
+      "twitch": "https://twitch.tv/zonixxcs",
+      "hltv": "https://www.hltv.org/player/102/zonixx",
+      "liquipedia": "https://liquipedia.net/counterstrike/Zonixx"
+    }
+  },
+  {
+    "nickname": "anarkez",
+    "links": {
+      "twitch": "https://www.twitch.tv/anarkez",
+      "hltv": "https://www.hltv.org/player/11815/anarkez",
+      "liquipedia": "https://liquipedia.net/counterstrike/Anarkez"
+    }
+  },
+  {
+    "nickname": "jmqa",
+    "links": {
+      "twitch": "https://www.twitch.tv/jmqa",
+      "hltv": "https://www.hltv.org/player/8368/jmqa",
+      "liquipedia": "https://liquipedia.net/counterstrike/Jmqa"
+    }
+  },
+  {
+    "nickname": "faydett",
+    "links": {
+      "twitch": "https://www.twitch.tv/faydett_csgo",
+      "hltv": "https://www.hltv.org/player/20197/faydett",
+      "liquipedia": "https://liquipedia.net/counterstrike/Faydett"
+    }
+  },
+  {
+    "nickname": "Kat",
+    "links": {
+      "twitch": "https://www.twitch.tv/kat_cs",
+      "hltv": "https://www.hltv.org/player/21756/kat",
+      "liquipedia": "https://liquipedia.net/counterstrike/Kat"
+    }
+  },
+  {
+    "nickname": "freakazoid",
+    "links": {
+      "twitch": "https://www.twitch.tv/freakazoid",
+      "hltv": "https://www.hltv.org/player/7808/freakazoid",
+      "liquipedia": "https://liquipedia.net/counterstrike/Freakazoid"
+    }
   }
 ]

@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('streamers-container');
-    
-    // Show loading state
-    container.innerHTML = '<div class="loading">Loading streamers...</div>';
+    const counterElement = document.getElementById('counter');
+    const showStreamersBtn = document.getElementById('show-streamers-btn');
+    let streamersData = [];
     
     // Fetch JSON data
     fetch('streamers.json')
@@ -13,19 +13,60 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
         .then(streamers => {
-            renderStreamers(streamers);
+            streamersData = streamers;
+            // Animate counter
+            animateCounter(streamers.length);
         })
         .catch(error => {
             console.error('Error loading streamers:', error);
-            container.innerHTML = '<div class="error">Failed to load streamers. Please try again later.</div>';
         });
+    
+    // Show streamers button click handler
+    showStreamersBtn.addEventListener('click', function(e) {
+        createRipple(e, showStreamersBtn);
+        container.classList.remove('hidden');
+        showStreamersBtn.classList.add('hidden');
+        renderStreamers(streamersData);
+    });
+    
+    // Ripple effect function
+    function createRipple(event, element) {
+        const ripple = document.createElement('span');
+        ripple.className = 'ripple';
+        const rect = element.getBoundingClientRect();
+        const size = Math.max(rect.width, rect.height);
+        const x = event.clientX - rect.left - size / 2;
+        const y = event.clientY - rect.top - size / 2;
+        ripple.style.width = ripple.style.height = size + 'px';
+        ripple.style.left = x + 'px';
+        ripple.style.top = y + 'px';
+        element.appendChild(ripple);
+        setTimeout(() => ripple.remove(), 600);
+    }
+    
+    // Counter animation function
+    function animateCounter(target) {
+        const duration = 2000; // 2 seconds
+        const step = target / (duration / 16); // 60fps
+        let current = 0;
+        
+        const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+                current = target;
+                clearInterval(timer);
+            }
+            counterElement.textContent = Math.floor(current);
+        }, 16);
+    }
     
     function renderStreamers(streamers) {
         container.innerHTML = '';
         
         streamers.forEach((streamer, index) => {
             const card = createStreamerCard(streamer);
-            card.style.animationDelay = `${index * 0.05}s`;
+            card.style.animationDelay = `${index * 0.08}s`;
+            card.style.animation = `cardEntrance 0.5s ease-out ${index * 0.08}s forwards`;
             container.appendChild(card);
         });
     }

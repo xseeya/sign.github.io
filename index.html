@@ -8,11 +8,31 @@
 </head>
 <body>
     <header class="header">
+        <div class="header-decoration">
+            <div class="decorative-circle circle-1"></div>
+            <div class="decorative-circle circle-2"></div>
+            <div class="decorative-circle circle-3"></div>
+        </div>
         <h1>People, who already signed my profile:</h1>
-        </header>
+        <div class="counter-container">
+            <span class="counter-label">Total signed:</span>
+            <span id="counter" class="counter">0</span>
+            <div class="counter-decoration">
+                <div class="sparkle sparkle-1"></div>
+                <div class="sparkle sparkle-2"></div>
+                <div class="sparkle sparkle-3"></div>
+                <div class="sparkle sparkle-4"></div>
+            </div>
+        </div>
+    </header>
     
     <main class="main">
-        <div id="streamers-container" class="streamers-grid">
+        <div class="button-container">
+            <button id="show-streamers-btn" class="show-streamers-btn">
+                ↓
+            </button>
+        </div>
+        <div id="streamers-container" class="streamers-grid hidden">
             <!-- Cards will be dynamically inserted here -->
         </div>
     </main>
