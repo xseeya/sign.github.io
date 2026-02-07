@@ -57,9 +57,17 @@
             
         </div>
         <div id="filter-container" class="filter-container hidden">
-            <button id="filter-all" class="filter-btn active">All</button>
-            <button id="filter-pro" class="filter-btn">Pro Players</button>
-            <button id="filter-streamers" class="filter-btn">Streamers</button>
+            <div class="search-wrapper">
+                <input type="text" id="search-input" class="search-input" placeholder="Search">
+                <div class="filter-dropdown">
+                    <button id="filter-btn" class="filter-btn active">All ▾</button>
+                    <div id="filter-options" class="filter-options">
+                        <button data-filter="all" class="filter-option active">All</button>
+                        <button data-filter="pro" class="filter-option">Pro</button>
+                        <button data-filter="streamers" class="filter-option">Streamers</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="streamers-container" class="streamers-grid hidden">
             

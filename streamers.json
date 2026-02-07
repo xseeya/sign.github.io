@@ -1,12 +1,14 @@
 [
   {
     "nickname": "fertilcs",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/fertilcs"
     }
   },
   {
     "nickname": "fearfox",
+    "name": "Egor Levichev",
     "links": {
       "twitch": "https://www.twitch.tv/fearfox111",
       "hltv": "https://www.hltv.org/player/17313/fearfox"
@@ -14,12 +16,14 @@
   },
   {
     "nickname": "icyt3ars",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/icyt3ars"
     }
   },
   {
-    "nickname": "s_chilla",
+    "nickname": "s-chilla",
+    "name": "Vsevolod Shchurov",
     "links": {
       "twitch": "https://www.twitch.tv/s_chilla",
       "hltv": "https://www.hltv.org/player/23413/s-chilla",
@@ -27,7 +31,8 @@
     }
   },
   {
-    "nickname": "akiyanoracs",
+    "nickname": "akiyanora",
+    "name": "Julia Semenova",
     "links": {
       "twitch": "https://www.twitch.tv/akiyanoracs",
       "hltv": "https://www.hltv.org/player/23440/akiyanora",
@@ -35,7 +40,8 @@
     }
   },
   {
-    "nickname": "pwnalonecs",
+    "nickname": "PwnAlone",
+    "name": "Josh Pigue",
     "links": {
       "twitch": "https://www.twitch.tv/pwnalonecs",
       "hltv": "https://www.hltv.org/player/15090/pwnalone",
@@ -44,6 +50,7 @@
   },
   {
     "nickname": "airscape",
+    "name": "Sergey Marochkin",
     "links": {
       "twitch": "https://www.twitch.tv/airscape",
       "hltv": "https://www.hltv.org/player/17012/airscape",
@@ -51,7 +58,8 @@
     }
   },
   {
-    "nickname": "keliencs",
+    "nickname": "kelieN",
+    "name": "Vladimir Boldyrev",
     "links": {
       "twitch": "https://www.twitch.tv/keliencs",
       "hltv": "https://www.hltv.org/player/23048/kelien",
@@ -60,12 +68,14 @@
   },
   {
     "nickname": "watchfultv",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/watchfultv"
     }
   },
   {
     "nickname": "dona",
+    "name": "Edona Muliu",
     "links": {
       "twitch": "https://www.twitch.tv/donacs",
       "hltv": "https://www.hltv.org/player/24768/dona",
@@ -74,6 +84,7 @@
   },
   {
     "nickname": "mauisnake",
+    "name": "Alex Ellenberg",
     "links": {
       "twitch": "https://www.twitch.tv/mauisnake",
       "hltv": "https://www.hltv.org/player/14497/mauisnake",
@@ -81,7 +92,8 @@
     }
   },
   {
-    "nickname": "heatoncs",
+    "nickname": "HeatoN",
+    "name": "Emil Christensen",
     "links": {
       "twitch": "https://www.twitch.tv/heatoncs",
       "hltv": "https://www.hltv.org/hof/5527/heaton",
@@ -90,14 +102,16 @@
   },
   {
     "nickname": "linaONE",
+    "name": "Alina Senator",
     "links": {
       "twitch": "https://www.twitch.tv/linaone",
-      "hltv": "https://www.hltv.org/player/14497/linaone",
+      "hltv": "",
       "liquipedia": "https://liquipedia.net/counterstrike/LINAONE"
     }
   },
   {
     "nickname": "Delight",
+    "name": "Maxim Saenko",
     "links": {
       "twitch": "https://www.twitch.tv/del1ght",
       "hltv": "https://www.hltv.org/player/22351/delight",
@@ -106,6 +120,7 @@
   },
   {
     "nickname": "stewie2k",
+    "name": "Jake Yip",
     "links": {
       "twitch": "https://www.twitch.tv/stewie2k",
       "hltv": "https://www.hltv.org/player/8797/stewie2k",
@@ -114,6 +129,7 @@
   },
   {
     "nickname": "FpSSS",
+    "name": "Dmitriy Sofronov",
     "links": {
       "twitch": "https://www.twitch.tv/fpssssssssssssssssssss",
       "hltv": "https://www.hltv.org/player/20201/fpsss",
@@ -122,6 +138,7 @@
   },
   {
     "nickname": "m3wsu",
+    "name": "Timur Korenev",
     "links": {
       "twitch": "https://www.twitch.tv/m3wsu",
       "hltv": "https://www.hltv.org/player/23682/m3wsu",
@@ -130,13 +147,15 @@
   },
   {
     "nickname": "1nnochka",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/1nnochka",
       "liquipedia": "https://liquipedia.net/counterstrike/1nnochka"
     }
   },
   {
-    "nickname": "tizian_cs",
+    "nickname": "tiziaN",
+    "name": "Tizian Feldbusch",
     "links": {
       "twitch": "https://www.twitch.tv/tizian_cs",
       "hltv": "https://www.hltv.org/player/5796/tizian",
@@ -145,18 +164,21 @@
   },
   {
     "nickname": "6u3hecbyman",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/6u3hecbyman"
     }
   },
   {
     "nickname": "compl1cs",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/compl1cs"
     }
   },
   {
     "nickname": "fandercs",
+    "name": "Ilya Bagreev",
     "links": {
       "twitch": "https://www.twitch.tv/fandercs",
       "hltv": "https://www.hltv.org/player/17104/fander",
@@ -165,24 +187,28 @@
   },
   {
     "nickname": "heysedaya",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/heysedaya"
     }
   },
   {
     "nickname": "hhhakkku",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/hhhakkku"
     }
   },
   {
     "nickname": "kurofamegod",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/kurofamegod"
     }
   },
   {
     "nickname": "rallencs2",
+    "name": "Karol Rodowicz",
     "links": {
       "twitch": "https://www.twitch.tv/rallencs2",
       "hltv": "https://www.hltv.org/player/5388/rallen",
@@ -191,12 +217,14 @@
   },
   {
     "nickname": "aesthhh",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/aesthhh"
     }
   },
   {
     "nickname": "d0cc_tv",
+    "name": "Shuaib Ahmad",
     "links": {
       "twitch": "https://www.twitch.tv/d0cc_tv",
       "hltv": "https://www.hltv.org/player/18361/d0cc",
@@ -205,6 +233,7 @@
   },
   {
     "nickname": "yumsancs",
+    "name": "Vadim Toropynin",
     "links": {
       "twitch": "https://www.twitch.tv/yumsancs",
       "hltv": "https://www.hltv.org/player/20504/yumsan",
@@ -212,7 +241,8 @@
     }
   },
   {
-    "nickname": "1nterz",
+    "nickname": "interz",
+    "name": "Timofey Yakushin",
     "links": {
       "twitch": "https://www.twitch.tv/1nterz",
       "hltv": "https://www.hltv.org/player/15071/interz",
@@ -221,6 +251,7 @@
   },
   {
     "nickname": "irbitka",
+    "name": "Tamilla Bashirova",
     "links": {
       "twitch": "https://www.twitch.tv/irbitka",
       "hltv": "https://www.hltv.org/player/23505/irbitka",
@@ -228,7 +259,8 @@
     }
   },
   {
-    "nickname": "trevl",
+    "nickname": "tr3vl",
+    "name": "Ilya Globa",
     "links": {
       "twitch": "https://www.twitch.tv/trevl",
       "hltv": "https://www.hltv.org/player/13778/tr3vl",
@@ -236,7 +268,8 @@
     }
   },
   {
-    "nickname": "bandurka",
+    "nickname": "Dimaoneshot",
+    "name": "Dmitriy Bandurka",
     "links": {
       "twitch": "https://www.twitch.tv/bandurka",
       "hltv": "https://www.hltv.org/player/8125/dimaoneshot",
@@ -244,7 +277,8 @@
     }
   },
   {
-    "nickname": "juntella",
+    "nickname": "Juntella",
+    "name": "Zhanna Varlamova",
     "links": {
       "twitch": "https://www.twitch.tv/juntella",
       "hltv": "https://www.hltv.org/player/24469/juntella",
@@ -253,6 +287,7 @@
   },
   {
     "nickname": "poka",
+    "name": "Kirill Starovoytov",
     "links": {
       "twitch": "https://www.twitch.tv/poka",
       "hltv": "https://www.hltv.org/player/16611/poka",
@@ -260,7 +295,8 @@
     }
   },
   {
-    "nickname": "topocsgo",
+    "nickname": "topo",
+    "name": "Evgenii Lopatin",
     "links": {
       "twitch": "https://www.twitch.tv/topocsgo",
       "hltv": "https://www.hltv.org/player/24326/topo",
@@ -269,12 +305,14 @@
   },
   {
     "nickname": "milqka",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/milqka"
     }
   },
   {
-    "nickname": "qrushcsgo",
+    "nickname": "QRUSH",
+    "name": "Maksim Ilyushin",
     "links": {
       "twitch": "https://www.twitch.tv/qrushcsgo",
       "hltv": "https://www.hltv.org/player/12943/qrush",
@@ -282,7 +320,8 @@
     }
   },
   {
-    "nickname": "mamaswiggi",
+    "nickname": "MamaSwiggi",
+    "name": "Evgenia Shakina",
     "links": {
       "twitch": "https://www.twitch.tv/mamaswiggi",
       "liquipedia": "https://liquipedia.net/counterstrike/MamaSwiggi"
@@ -290,6 +329,7 @@
   },
   {
     "nickname": "1mpala",
+    "name": "Stefan Ailazian",
     "links": {
       "twitch": "https://www.twitch.tv/1mpala",
       "hltv": "https://www.hltv.org/player/12754/1mpala",
@@ -298,6 +338,7 @@
   },
   {
     "nickname": "nordvi",
+    "name": "Victoria Pisareva",
     "links": {
       "twitch": "https://www.twitch.tv/nordvi",
       "liquipedia": "https://liquipedia.net/counterstrike/Nordvi"
@@ -305,6 +346,7 @@
   },
   {
     "nickname": "n0rb3r7",
+    "name": "David Danielyan",
     "links": {
       "twitch": "https://www.twitch.tv/n0rb3r7",
       "hltv": "https://www.hltv.org/player/16612/n0rb3r7",
@@ -313,12 +355,14 @@
   },
   {
     "nickname": "maia9a",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/maia9a"
     }
   },
   {
     "nickname": "v1spel",
+    "name": "Karyna Sytnyk",
     "links": {
       "twitch": "https://www.twitch.tv/v1spel",
       "hltv": "https://www.hltv.org/player/23438/v1spel",
@@ -327,6 +371,7 @@
   },
   {
     "nickname": "pusha13",
+    "name": "Timur Akaev",
     "links": {
       "twitch": "https://www.twitch.tv/pusha13",
       "hltv": "https://www.hltv.org/player/25020/pusha",
@@ -334,7 +379,8 @@
     }
   },
   {
-    "nickname": "friend44444",
+    "nickname": "Friend444",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/friend44444",
       "liquipedia": "https://liquipedia.net/counterstrike/Friend444"
@@ -342,12 +388,14 @@
   },
   {
     "nickname": "m4gaaaa",
+    "name": "Magomed Gadzhiev",
     "links": {
       "twitch": "https://www.twitch.tv/m4gaaaa"
     }
   },
   {
-    "nickname": "akkri_",
+    "nickname": "akkri",
+    "name": "Anna Zubkova",
     "links": {
       "twitch": "https://www.twitch.tv/akkri_",
       "hltv": "https://www.hltv.org/player/23305/akkri",
@@ -356,6 +404,7 @@
   },
   {
     "nickname": "ikasperovskaya",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/ikasperovskaya",
       "liquipedia": "https://liquipedia.net/counterstrike/Kasperovskaya"
@@ -363,6 +412,7 @@
   },
   {
     "nickname": "yxngstxr",
+    "name": "Simon Boije",
     "links": {
       "twitch": "https://www.twitch.tv/yxngstxr",
       "hltv": "https://www.hltv.org/player/22047/yxngstxr",
@@ -371,26 +421,30 @@
   },
   {
     "nickname": "kiryuhanastyuha",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/kiryuhanastyuha"
     }
   },
   {
     "nickname": "arrowcs",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/arrowcs"
     }
   },
   {
-    "nickname": "suns1de",
+    "nickname": "s1nside",
+    "name": "Nikita Besedin",
     "links": {
-      "twitch": "https://www.twitch.tv/suns1de999",
-      "hltv": "https://www.hltv.org/player/23052/suns1de",
-      "liquipedia": "https://liquipedia.net/counterstrike/Suns1de"
+      "twitch": "",
+      "hltv": "",
+      "liquipedia": ""
     }
   },
   {
     "nickname": "matusik",
+    "name": "Nikita Matusevich",
     "links": {
       "twitch": "https://www.twitch.tv/matusikcs",
       "hltv": "https://www.hltv.org/player/18663/matusik",
@@ -399,6 +453,7 @@
   },
   {
     "nickname": "xia",
+    "name": "Lea Vagová",
     "links": {
       "twitch": "https://www.twitch.tv/xiacs2",
       "hltv": "https://www.hltv.org/player/22604/xia",
@@ -407,12 +462,14 @@
   },
   {
     "nickname": "poisonika",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/poisonika"
     }
   },
   {
     "nickname": "amanek",
+    "name": "François Delaunay",
     "links": {
       "twitch": "https://www.twitch.tv/amanek10",
       "hltv": "https://www.hltv.org/player/9616/amanek",
@@ -421,6 +478,7 @@
   },
   {
     "nickname": "chopper",
+    "name": "Leonid Vishnyakov",
     "links": {
       "twitch": "https://www.twitch.tv/chopperinho",
       "hltv": "https://www.hltv.org/player/7716/chopper",
@@ -429,6 +487,7 @@
   },
   {
     "nickname": "glowiing",
+    "name": "Aleksandr Matsievich",
     "links": {
       "twitch": "https://www.twitch.tv/glowi1ng",
       "hltv": "https://www.hltv.org/player/17508/glowiing",
@@ -437,12 +496,14 @@
   },
   {
     "nickname": "pattm0nster",
+    "name": "",
     "links": {
       "twitch": "https://www.twitch.tv/pattm0nster"
     }
   },
   {
     "nickname": "Zana",
+    "name": "Ana Queiroz",
     "links": {
       "twitch": "https://www.twitch.tv/zanacs2",
       "hltv": "https://www.hltv.org/player/16764/zana",
@@ -451,6 +512,7 @@
   },
   {
     "nickname": "yariksupra",
+    "name": "Jaroslav Brecht",
     "links": {
       "twitch": "https://www.twitch.tv/yariksupra",
       "hltv": "https://www.hltv.org/player/25275/yariksupra",
@@ -459,6 +521,7 @@
   },
   {
     "nickname": "Krad",
+    "name": "Vladislav Kravchenko",
     "links": {
       "twitch": "https://www.twitch.tv/kradcs",
       "hltv": "https://www.hltv.org/player/12027/krad",
@@ -467,6 +530,7 @@
   },
   {
     "nickname": "zonixx",
+    "name": "Michele Köhler",
     "links": {
       "twitch": "https://www.twitch.tv/zonixxcs",
       "hltv": "https://www.hltv.org/player/102/zonixx",
@@ -475,6 +539,7 @@
   },
   {
     "nickname": "anarkez",
+    "name": "Guy Trachtman",
     "links": {
       "twitch": "https://www.twitch.tv/anarkez",
       "hltv": "https://www.hltv.org/player/11815/anarkez",
@@ -483,6 +548,7 @@
   },
   {
     "nickname": "jmqa",
+    "name": "Savelii Bragin",
     "links": {
       "twitch": "https://www.twitch.tv/jmqa",
       "hltv": "https://www.hltv.org/player/8368/jmqa",
@@ -491,6 +557,7 @@
   },
   {
     "nickname": "faydett",
+    "name": "Yuri Martirosov",
     "links": {
       "twitch": "https://www.twitch.tv/faydett_csgo",
       "hltv": "https://www.hltv.org/player/20197/faydett",
@@ -499,6 +566,7 @@
   },
   {
     "nickname": "Kat",
+    "name": "Katarína Vašková",
     "links": {
       "twitch": "https://www.twitch.tv/kat_cs",
       "hltv": "https://www.hltv.org/player/21756/kat",
@@ -507,6 +575,7 @@
   },
   {
     "nickname": "freakazoid",
+    "name": "Ryan Abadir",
     "links": {
       "twitch": "https://www.twitch.tv/freakazoid",
       "hltv": "https://www.hltv.org/player/7808/freakazoid",

@@ -304,22 +304,77 @@ body {
 .filter-container {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    align-items: center;
+    gap: 0;
     margin-bottom: 24px;
     flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+}
+
+.search-input {
+    padding: 10px 20px;
+    padding-right: 50px;
+    border: 1px solid rgba(88, 166, 255, 0.3);
+    background: rgba(88, 166, 255, 0.05);
+    color: #c9d1d9;
+    border-radius: 50px 0 0 50px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(88, 166, 255, 0.1);
+    min-width: 220px;
+    outline: none;
+    border-right: none;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+.search-input::placeholder {
+    color: rgba(139, 148, 158, 0.7);
+}
+
+.search-input:hover,
+.search-input:focus {
+    border-color: rgba(88, 166, 255, 0.5);
+    background: rgba(88, 166, 255, 0.1);
+}
+
+.search-input:focus {
+    border-color: rgba(88, 166, 255, 0.7);
+    background: rgba(88, 166, 255, 0.15);
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(88, 166, 255, 0.25);
+}
+
+.filter-dropdown {
+    position: relative;
+    display: flex;
+    align-items: stretch;
 }
 
 .filter-btn {
-    padding: 10px 24px;
+    padding: 10px 20px;
     border: 1px solid rgba(88, 166, 255, 0.3);
     background: rgba(88, 166, 255, 0.1);
     color: #79c0ff;
-    border-radius: 50px;
+    border-radius: 0 50px 50px 0;
     cursor: pointer;
     font-size: 14px;
     font-weight: 700;
     transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 2px 8px rgba(88, 166, 255, 0.1);
+    border-left: none;
+    position: relative;
+    height: 42px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
 .filter-btn:hover {
@@ -327,7 +382,6 @@ body {
     border-color: rgba(88, 166, 255, 0.5);
     color: #a5d6ff;
     box-shadow: 0 4px 16px rgba(88, 166, 255, 0.2);
-    transform: translateY(-1px);
 }
 
 .filter-btn.active {
@@ -335,6 +389,50 @@ body {
     border-color: rgba(88, 166, 255, 0.6);
     color: #ffffff;
     box-shadow: 0 4px 20px rgba(88, 166, 255, 0.3);
+}
+
+.filter-options {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+    background: rgba(22, 27, 34, 0.98);
+    border: 1px solid rgba(88, 166, 255, 0.3);
+    border-radius: 12px;
+    padding: 8px;
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 160px;
+    box-shadow: 0 8px 32px rgba(88, 166, 255, 0.2);
+    z-index: 100;
+}
+
+.filter-options.show {
+    display: flex;
+}
+
+.filter-option {
+    padding: 10px 16px;
+    border: none;
+    background: transparent;
+    color: #c9d1d9;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.filter-option:hover {
+    background: rgba(88, 166, 255, 0.15);
+    color: #79c0ff;
+}
+
+.filter-option.active {
+    background: rgba(88, 166, 255, 0.2);
+    color: #ffffff;
 }
 
 .button-container {
@@ -525,6 +623,74 @@ body {
 
 .streamer-card:hover h2 {
     color: #58a6ff;
+}
+
+/* Nickname styles */
+.streamer-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.streamer-header .nickname {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.streamer-header .nickname:hover {
+    color: #79c0ff;
+}
+
+/* Custom Tooltip for Real Name */
+.streamer-header .nickname {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+
+.streamer-header .nickname:hover {
+    color: #79c0ff;
+}
+
+.streamer-header .nickname .tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: linear-gradient(135deg, #21262d 0%, #161b22 100%);
+    color: #f0f6fc;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 
+                0 0 0 1px rgba(88, 166, 255, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.streamer-header .nickname .tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: #161b22;
+}
+
+.streamer-header .nickname:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
 }
 
 /* Info icon with rotation and color change */
@@ -724,6 +890,24 @@ body {
     
     .streamer-card .links a {
         justify-content: center;
+    }
+    
+    /* Custom Tooltip for mobile */
+    .streamer-card .tooltip {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: #21262d;
+        padding: 16px 24px;
+        border-radius: 12px;
+        font-size: 1rem;
+        z-index: 1000;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    }
+    
+    .streamer-card .tooltip::after {
+        display: none;
     }
 }
 

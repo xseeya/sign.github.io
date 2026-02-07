@@ -3,11 +3,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const counterElement = document.getElementById('counter');
     const showStreamersBtn = document.getElementById('show-streamers-btn');
     const filterContainer = document.getElementById('filter-container');
-    const filterAllBtn = document.getElementById('filter-all');
-    const filterProBtn = document.getElementById('filter-pro');
-    const filterStreamersBtn = document.getElementById('filter-streamers');
+    const searchInput = document.getElementById('search-input');
+    const filterBtn = document.getElementById('filter-btn');
+    const filterOptions = document.getElementById('filter-options');
+    const filterOptionButtons = filterOptions ? filterOptions.querySelectorAll('.filter-option') : [];
     let streamersData = [];
     let currentFilter = 'all';
+    let searchQuery = '';
+    
+    // Filter option labels mapping
+    const filterLabels = {
+        'all': 'All ▾',
+        'pro': 'Pro Players ▾',
+        'streamers': 'Streamers ▾'
+    };
     
     // Fetch JSON data
     fetch('streamers.json')
@@ -44,33 +53,47 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Filter button handlers
-    if (filterAllBtn) {
-        filterAllBtn.addEventListener('click', function() {
-            setActiveFilter('all');
-            renderStreamers(getFilteredStreamers());
+    // Toggle filter dropdown
+    if (filterBtn) {
+        filterBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            filterOptions.classList.toggle('show');
         });
     }
     
-    if (filterProBtn) {
-        filterProBtn.addEventListener('click', function() {
-            setActiveFilter('pro');
+    // Filter option handlers
+    filterOptionButtons.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            const filter = btn.dataset.filter;
+            setActiveFilter(filter);
+            filterOptions.classList.remove('show');
             renderStreamers(getFilteredStreamers());
         });
-    }
+    });
     
-    if (filterStreamersBtn) {
-        filterStreamersBtn.addEventListener('click', function() {
-            setActiveFilter('streamers');
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function() {
+        if (filterOptions) {
+            filterOptions.classList.remove('show');
+        }
+    });
+    
+    // Search input handler
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            searchQuery = searchInput.value.toLowerCase().trim();
             renderStreamers(getFilteredStreamers());
         });
     }
     
     function setActiveFilter(filter) {
         currentFilter = filter;
-        filterAllBtn.classList.toggle('active', filter === 'all');
-        filterProBtn.classList.toggle('active', filter === 'pro');
-        filterStreamersBtn.classList.toggle('active', filter === 'streamers');
+        if (filterBtn) {
+            filterBtn.textContent = filterLabels[filter];
+        }
+        filterOptionButtons.forEach(function(btn) {
+            btn.classList.toggle('active', btn.dataset.filter === filter);
+        });
     }
     
     function isProPlayer(streamer) {
@@ -80,14 +103,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function getFilteredStreamers() {
+        let filtered = streamersData;
+        
+        // Apply category filter
         switch (currentFilter) {
             case 'pro':
-                return streamersData.filter(isProPlayer);
+                filtered = filtered.filter(isProPlayer);
+                break;
             case 'streamers':
-                return streamersData.filter(s => !isProPlayer(s));
+                filtered = filtered.filter(s => !isProPlayer(s));
+                break;
             default:
-                return streamersData;
+                break;
         }
+        
+        // Apply search filter
+        if (searchQuery) {
+            filtered = filtered.filter(streamer => 
+                streamer.nickname.toLowerCase().includes(searchQuery)
+            );
+        }
+        
+        return filtered;
     }
     
 
@@ -124,8 +161,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const card = document.createElement('article');
         card.className = 'streamer-card';
-        
-
         
         // Generate liquipedia link
         let liquipediaHtml = '';
@@ -177,8 +212,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         card.innerHTML = `
-            <h2>
-                ${escapeHtml(streamer.nickname)}
+            <h2 class="streamer-header">
+                <span class="nickname" ${streamer.name && streamer.name.trim() !== '' ? `data-name="${escapeHtml(streamer.name)}"` : ''}>
+                    ${escapeHtml(streamer.nickname)}
+                    ${streamer.name && streamer.name.trim() !== '' ? `<span class="tooltip">${escapeHtml(streamer.name)}</span>` : ''}
+                </span>
                 ${liquipediaHtml}
             </h2>
             <div class="links">
@@ -186,6 +224,23 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         `;
         
+        // Add click handler for name display on mobile
+        const nicknameEl = card.querySelector('.nickname');
+        if (nicknameEl && streamer.name && streamer.name.trim() !== '') {
+            nicknameEl.style.cursor = 'pointer';
+            nicknameEl.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Show name in alert or tooltip
+                if (isMobile()) {
+                    alert(streamer.name);
+                }
+            });
+        }
+        
         return card;
+    }
+
+    function isMobile() {
+        return window.innerWidth <= 768;
     }
 });
