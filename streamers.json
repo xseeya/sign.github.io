@@ -590,5 +590,32 @@
       "hltv": "https://www.hltv.org/player/22191/magila",
       "liquipedia": "https://liquipedia.net/counterstrike/MAGILA"
     }
+  },
+  {
+    "nickname": "hyped",
+    "name": "Marcel Köhn",
+    "links": {
+      "twitch": "https://www.twitch.tv/hypedcs_",
+      "hltv": "https://www.hltv.org/player/21468/hyped",
+      "liquipedia": "https://liquipedia.net/counterstrike/Hyped"
+    }
+  },
+  {
+    "nickname": "CyberFocus",
+    "name": "Roman Dergach",
+    "links": {
+      "twitch": "https://www.twitch.tv/cyberfocus",
+      "hltv": "https://www.hltv.org/player/8255/cyberfocus",
+      "liquipedia": "https://liquipedia.net/counterstrike/CyberFocus"
+    }
+  },
+  {
+    "nickname": "Angelka",
+    "name": "Angelika Kozłowska",
+    "links": {
+      "twitch": "https://www.twitch.tv/angelkacs",
+      "hltv": "https://www.hltv.org/player/22065/angelka",
+      "liquipedia": "https://liquipedia.net/counterstrike/Angelka"
+    }
   }
 ]
